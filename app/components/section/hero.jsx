@@ -1,4 +1,4 @@
-import { IconFileSearch } from '@tabler/icons-react';
+import { IconClipboardText, IconFileSearch } from '@tabler/icons-react';
 
 export default function Hero() {
   return (
@@ -15,9 +15,11 @@ export default function Hero() {
           The all in one automated airdrop farming service with major airdrop support.
         </p>
         <div className='flex items-center gap-10 mt-5'>
-          <p className='text-white underline text-[14px] flex items-center gap-2'>View Documentation</p>
           <p className='text-white underline text-[14px] flex items-center gap-2'>
-            <IconFileSearch size={'1rem'} />
+            <IconClipboardText size={'1.2rem'} /> View Documentation
+          </p>
+          <p className='text-white underline text-[14px] flex items-center gap-2'>
+            <IconFileSearch size={'1.2rem'} />
             Explore Airdrop Farming
           </p>
         </div>
